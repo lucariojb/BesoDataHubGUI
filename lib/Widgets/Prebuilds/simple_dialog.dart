@@ -56,10 +56,7 @@ class MySimpleDialog extends StatelessWidget {
     bool barrierDismissible = true, // Allow dismissing by tapping outside
   }) {
     // Ensure only one action definition method is used
-    assert(
-        !(actions != null &&
-            dialogType !=
-                MySimpleDialogType.okOnly /* Default doesn't conflict */),
+    assert(!(actions != null && dialogType != MySimpleDialogType.okOnly),
         'SimpleDialog.show: Cannot provide both custom actions and a specific dialogType (other than the default okOnly if actions is null). Provide one or the other.');
 
     // If custom actions are given, dialogType is effectively ignored internally

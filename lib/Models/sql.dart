@@ -16,10 +16,12 @@ class MySQL {
       body: jsonEncode(body),
     );
 
-    // More specific status code checking is better
-    if (response.statusCode >= 200 && response.statusCode < 300) {
-      // Handle potential empty body for success codes like 204 No Content if applicable
-      return response.body;
+    if (response.statusCode == 200) {
+      if (response.body.isEmpty) {
+        return ''; // Handle empty response gracefully
+      } else {
+        return response.body;
+      }
     } else {
       // Provide more context in the exception
       String errorMessage =
@@ -47,7 +49,7 @@ class MySQL {
     } catch (e) {
       // Re-throw with more context or handle differently
       print("Error in runQueryAsMap for query '$query': $e");
-      rethrow; // Or return empty list: return [];
+      return []; // Return an empty list on error
     }
   }
 

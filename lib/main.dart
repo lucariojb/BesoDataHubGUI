@@ -7,7 +7,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:sizer/sizer.dart';
 
-import 'Screens/Konnektor Konfiguration/konnektor_konfiguration_main.dart';
+import 'Screens/KonnektorKonfiguration/konnektor_konfiguration_main.dart';
 
 void main() {
   runApp(MultiProvider(providers: [
