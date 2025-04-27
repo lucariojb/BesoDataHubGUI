@@ -1,0 +1,426 @@
+{
+    "SL_BELEGABRUF": {
+        "EXE": "C:\\Program Files\\besoDataHub\\SL_BELEGABRUF.exe",
+        "Lizenz": "Benoetigte Lizenz",
+        "Konnektor_Konfig": [
+            {
+                "Schluessel": "APIURL",
+                "Kommentar": "URL der SL-Api",
+                "Optionen": null,
+                "Required": true
+            },
+            {
+                "Schluessel": "APIPORT",
+                "Kommentar": "Port der SL-Api",
+                "Optionen": null,
+                "Required": true
+            },
+            {
+                "Schluessel": "APIHOST",
+                "Kommentar": "Host der Selectline API",
+                "Optionen": null,
+                "Required": true
+            },
+            {
+                "Schluessel": "APIKEY",
+                "Kommentar": "SelectLine-Api-Key",
+                "Optionen": null,
+                "Required": true
+            },
+            {
+                "Schluessel": "MISINSTALLED",
+                "Kommentar": "Ist auf diesem System bereits ein MIS-Dienst installiert (z.B. f\u00fcr besoMobile), dann TRUE. Wenn FALSE, pr\u00fcft der Konnektor beim Start ob ein MIS aktiv ist, wenn nein startet er einen ",
+                "Optionen": null,
+                "Required": true
+            },
+            {
+                "Schluessel": "MISPORT",
+                "Kommentar": "Port des MIS Communicators",
+                "Optionen": null,
+                "Required": true
+            },
+            {
+                "Schluessel": "APIBENUTZER",
+                "Kommentar": "Nutzername zur Authentifizierung an der SelectLine API",
+                "Optionen": null,
+                "Required": true
+            },
+            {
+                "Schluessel": "APIPASSWORT",
+                "Kommentar": "Passwort zur Authentifizierung an der SelectLine API",
+                "Optionen": null,
+                "Required": true
+            }
+        ],
+        "Job_Konfig": [
+            {
+                "Schluessel": "BELEGTYP",
+                "Kommentar": "In der SelectLine zu nutzender Belegtyp",
+                "Optionen": null,
+                "Required": true
+            },
+            {
+                "Schluessel": "BELEGFILTER",
+                "Kommentar": "Filter zur Verwendung im API-Aufruf zum Abruf der Belege, muss mit AND oder OR beginnen",
+                "Optionen": null,
+                "Required": true
+            },
+            {
+                "Schluessel": "ENDSTATUS",
+                "Kommentar": null,
+                "Optionen": null,
+                "Required": true
+            }
+        ]
+    },
+    "SL_PDFABRUF": {
+        "EXE": "C:\\Program Files\\besoDataHub\\SL_PDFABRUF.exe",
+        "Lizenz": "Benoetigte Lizenz",
+        "Konnektor_Konfig": [
+            {
+                "Schluessel": "APIURL",
+                "Kommentar": "URL der SL-Api",
+                "Optionen": null,
+                "Required": true
+            },
+            {
+                "Schluessel": "APIPORT",
+                "Kommentar": "Port der SL-Api",
+                "Optionen": null,
+                "Required": true
+            },
+            {
+                "Schluessel": "APIHOST",
+                "Kommentar": "Host der Selectline API",
+                "Optionen": null,
+                "Required": true
+            },
+            {
+                "Schluessel": "APIKEY",
+                "Kommentar": "SelectLine-Api-Key",
+                "Optionen": null,
+                "Required": true
+            },
+            {
+                "Schluessel": "MISINSTALLED",
+                "Kommentar": "Ist auf diesem System bereits ein MIS-Dienst installiert (z.B. f\u00fcr besoMobile), dann TRUE. Wenn FALSE, pr\u00fcft der Konnektor beim Start ob ein MIS aktiv ist, wenn nein startet er einen ",
+                "Optionen": null,
+                "Required": true
+            },
+            {
+                "Schluessel": "MISPORT",
+                "Kommentar": "Port des MIS Communicators",
+                "Optionen": null,
+                "Required": true
+            },
+            {
+                "Schluessel": "APIBENUTZER",
+                "Kommentar": "Nutzername zur Authentifizierung an der SelectLine API",
+                "Optionen": null,
+                "Required": true
+            },
+            {
+                "Schluessel": "APIPASSWORT",
+                "Kommentar": "Passwort zur Authentifizierung an der SelectLine API",
+                "Optionen": null,
+                "Required": true
+            }
+        ],
+        "Job_Konfig": [
+            {
+                "Schluessel": "STATUSFILTER",
+                "Kommentar": "",
+                "Optionen": null,
+                "Required": true
+            },
+            {
+                "Schluessel": "ENDSTATUS",
+                "Kommentar": "",
+                "Optionen": null,
+                "Required": true
+            },
+            {
+                "Schluessel": "DRUCKVORLAGE",
+                "Kommentar": "",
+                "Optionen": null,
+                "Required": true
+            },
+            {
+                "Schluessel": "LOCALDIR",
+                "Kommentar": "",
+                "Optionen": null,
+                "Required": true
+            },
+            {
+                "Schluessel": "DATEISUFFIX",
+                "Kommentar": "",
+                "Optionen": null,
+                "Required": true
+            },
+            {
+                "Schluessel": "DATEIPREFIX",
+                "Kommentar": "",
+                "Optionen": null,
+                "Required": true
+            },
+            {
+                "Schluessel": "DATEITEXT",
+                "Kommentar": "",
+                "Optionen": null,
+                "Required": true
+            }
+        ]
+    },
+    "SL_BELEGIMPORT": {
+        "EXE": "C:\\Program Files\\besoDataHub\\SL_BELEGIMPORT.exe",
+        "Lizenz": "Benoetigte Lizenz",
+        "Konnektor_Konfig": [
+            {
+                "Schluessel": "APIHOST",
+                "Kommentar": "Host der Selectline API",
+                "Optionen": null,
+                "Required": true
+            },
+            {
+                "Schluessel": "APIURL",
+                "Kommentar": "URL der SL-Api",
+                "Optionen": null,
+                "Required": true
+            },
+            {
+                "Schluessel": "APIPORT",
+                "Kommentar": "Port der SL-Api",
+                "Optionen": null,
+                "Required": true
+            },
+            {
+                "Schluessel": "APIKEY",
+                "Kommentar": "SelectLine-Api-Key",
+                "Optionen": null,
+                "Required": true
+            },
+            {
+                "Schluessel": "MISINSTALLED",
+                "Kommentar": "Ist auf diesem System bereits ein MIS-Dienst installiert (z.B. f\u00fcr besoMobile), dann TRUE. Wenn FALSE, pr\u00fcft der Konnektor beim Start ob ein MIS aktiv ist, wenn nein startet er einen ",
+                "Optionen": null,
+                "Required": true
+            },
+            {
+                "Schluessel": "MISPORT",
+                "Kommentar": "Port des MIS Communicators",
+                "Optionen": null,
+                "Required": true
+            },
+            {
+                "Schluessel": "APIBENUTZER",
+                "Kommentar": "Nutzername zur Authentifizierung an der SelectLine API",
+                "Optionen": null,
+                "Required": true
+            },
+            {
+                "Schluessel": "APIPASSWORT",
+                "Kommentar": "Passwort zur Authentifizierung an der SelectLine API",
+                "Optionen": null,
+                "Required": true
+            }
+        ],
+        "Job_Konfig": [
+            {
+                "Schluessel": "BELEGTYP",
+                "Kommentar": "In der SelectLine zu nutzender Belegtyp",
+                "Optionen": null,
+                "Required": true
+            },
+            {
+                "Schluessel": "STATUSFILTER",
+                "Kommentar": null,
+                "Optionen": null,
+                "Required": true
+            },
+            {
+                "Schluessel": "BELEGTYP",
+                "Kommentar": "In der SelectLine zu nutzender Belegtyp",
+                "Optionen": null,
+                "Required": true
+            },
+            {
+                "Schluessel": "ENDSTATUS",
+                "Kommentar": null,
+                "Optionen": null,
+                "Required": true
+            }
+        ]
+    },
+    "JSONZUATRIKOM": {
+        "EXE": "C:\\Program Files\\besoDataHub\\JSONZUATRIKOM.exe",
+        "Lizenz": "Benoetigte Lizenz",
+        "Konnektor_Konfig": [
+            {
+                "Schluessel": "MISINSTALLED",
+                "Kommentar": "Ist auf diesem System bereits ein MIS-Dienst installiert (z.B. f\u00fcr besoMobile), dann TRUE. Wenn FALSE, pr\u00fcft der Konnektor beim Start ob ein MIS aktiv ist, wenn nein startet er einen ",
+                "Optionen": null,
+                "Required": true
+            },
+            {
+                "Schluessel": "MISPORT",
+                "Kommentar": "Port des MIS Communicators",
+                "Optionen": null,
+                "Required": true
+            }
+        ],
+        "Job_Konfig": [
+            {
+                "Schluessel": "STATUSFILTER",
+                "Kommentar": "",
+                "Optionen": null,
+                "Required": true
+            },
+            {
+                "Schluessel": "ENDSTATUS",
+                "Kommentar": "",
+                "Optionen": null,
+                "Required": true
+            },
+            {
+                "Schluessel": "REMOTEDIR",
+                "Kommentar": "",
+                "Optionen": null,
+                "Required": true
+            },
+            {
+                "Schluessel": "LOCALDIR",
+                "Kommentar": "",
+                "Optionen": null,
+                "Required": true
+            }
+        ]
+    },
+    "bDH_SQL-Konnektor": {
+        "EXE": "C:\\Program Files\\besoDataHub\\bDH_SQL-Konnektor.exe",
+        "Lizenz": "Benoetigte Lizenz",
+        "Konnektor_Konfig": [],
+        "Job_Konfig": []
+    },
+    "SL_MANUELLELAGERUNG": {
+        "EXE": "C:\\Program Files\\besoDataHub\\SL_MANUELLELAGERUNG.exe",
+        "Lizenz": "Benoetigte Lizenz",
+        "Konnektor_Konfig": [
+            {
+                "Schluessel": "APIHOST",
+                "Kommentar": "Host der Selectline API",
+                "Optionen": null,
+                "Required": true
+            },
+            {
+                "Schluessel": "APIURL",
+                "Kommentar": "URL der SL-Api",
+                "Optionen": null,
+                "Required": true
+            },
+            {
+                "Schluessel": "APIPORT",
+                "Kommentar": "Port der SL-Api",
+                "Optionen": null,
+                "Required": true
+            },
+            {
+                "Schluessel": "APIKEY",
+                "Kommentar": "SelectLine-Api-Key",
+                "Optionen": null,
+                "Required": true
+            },
+            {
+                "Schluessel": "MISINSTALLED",
+                "Kommentar": "Ist auf diesem System bereits ein MIS-Dienst installiert (z.B. f\u00fcr besoMobile), dann TRUE. Wenn FALSE, pr\u00fcft der Konnektor beim Start ob ein MIS aktiv ist, wenn nein startet er einen ",
+                "Optionen": null,
+                "Required": true
+            },
+            {
+                "Schluessel": "MISPORT",
+                "Kommentar": "Port des MIS Communicators",
+                "Optionen": null,
+                "Required": true
+            },
+            {
+                "Schluessel": "APIBENUTZER",
+                "Kommentar": "Nutzername zur Authentifizierung an der SelectLine API",
+                "Optionen": null,
+                "Required": true
+            },
+            {
+                "Schluessel": "APIPASSWORT",
+                "Kommentar": "Passwort zur Authentifizierung an der SelectLine API",
+                "Optionen": null,
+                "Required": true
+            },
+            {
+                "Schluessel": "BELEGTYP",
+                "Kommentar": "In der SelectLine zu nutzender Belegtyp",
+                "Optionen": null,
+                "Required": true
+            }
+        ],
+        "Job_Konfig": []
+    },
+    "SL_PAKETIMPORT": {
+        "EXE": "C:\\Program Files\\besoDataHub\\SL_PAKETIMPORT.exe",
+        "Lizenz": "Benoetigte Lizenz",
+        "Konnektor_Konfig": [
+            {
+                "Schluessel": "APIHOST",
+                "Kommentar": "Host der Selectline API",
+                "Optionen": null,
+                "Required": true
+            },
+            {
+                "Schluessel": "APIURL",
+                "Kommentar": "URL der SL-Api",
+                "Optionen": null,
+                "Required": true
+            },
+            {
+                "Schluessel": "APIPORT",
+                "Kommentar": "Port der SL-Api",
+                "Optionen": null,
+                "Required": true
+            },
+            {
+                "Schluessel": "APIKEY",
+                "Kommentar": "SelectLine-Api-Key",
+                "Optionen": null,
+                "Required": true
+            },
+            {
+                "Schluessel": "MISINSTALLED",
+                "Kommentar": "Ist auf diesem System bereits ein MIS-Dienst installiert (z.B. f\u00fcr besoMobile), dann TRUE. Wenn FALSE, pr\u00fcft der Konnektor beim Start ob ein MIS aktiv ist, wenn nein startet er einen ",
+                "Optionen": null,
+                "Required": true
+            },
+            {
+                "Schluessel": "MISPORT",
+                "Kommentar": "Port des MIS Communicators",
+                "Optionen": null,
+                "Required": true
+            },
+            {
+                "Schluessel": "APIBENUTZER",
+                "Kommentar": "Nutzername zur Authentifizierung an der SelectLine API",
+                "Optionen": null,
+                "Required": true
+            },
+            {
+                "Schluessel": "APIPASSWORT",
+                "Kommentar": "Passwort zur Authentifizierung an der SelectLine API",
+                "Optionen": null,
+                "Required": true
+            },
+            {
+                "Schluessel": "BELEGTYP",
+                "Kommentar": "Zu verarbeitender Zusatztyp zur Erkennung von Paketdaten",
+                "Optionen": null,
+                "Required": true
+            }
+        ],
+        "Job_Konfig": []
+    }
+}
